@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Weather App</title>
+</head>
+<body>
+    <main>
+        
+
+        <div class="container">
+            <div class="title-container">
+                <h1>Weather App</h1>
+            </div>
+            <div class="main-container">
+                <input id="search-input" type="text" placeholder="Look for city or town">
+                <br/>
+                <br/>
+                <span id="onError"></span>
+                <br/>
+                <br/>
+                <button id="submit-button">SEARCH</button>
+
+            </div>
+            <div class="result-container">
+                <br />
+                <span id="locaiton"></span>
+                <br/>
+                <span id="country"></span>
+                <br/>
+                <br />
+                <span id="temp"></span>
+                <div class="weather-icon">
+                    <img src="./icons/unknown.png" alt=""> 
+                </div>
+                <br/>
+                <br/>
+                <span id="description"></span>
+            </div>
+        </div>
+        <div class="code-container">
+            <a href="#" id="app-info"><p>Click here input format</p></a>
+            <br />          
+        </div>
+    
+    </main>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="myScript.js"></script>    
+</body>
+</html>

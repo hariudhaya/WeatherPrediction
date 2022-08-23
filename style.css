@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(2, 2, 78);
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 250px;
+}
+.container #onError{
+    color: rgb(246, 19, 64)
+}
+.title-container h1{
+    color: white;
+    padding-bottom: 30px;
+    font-size: 4rem;
+
+}
+
+.container .main-container #search-input{
+    font-size: 2rem;
+    background: none;
+    border: none;
+    border-bottom: white solid 1px;
+}
+.container .main-container #search-input ::placeholder{
+    color: white;
+}
+input{
+    color: white;
+}
+ 
+#submit-button{
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    background-color: rgb(246, 19, 64);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+/*container for weather info from json */
+.result-container{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.result-container #locaiton{
+    font-size: 2rem;
+
+}
+.result-container #temp{
+    font-size: 1.5rem;
+    
+}
+.result-container #description{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.result-container .country{
+    font-weight: bolder;
+}
+
+
+.code-container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.code-container p{
+    color: white;
+}
+.code-container img{
+    height: 30px;
+    width: 30px;
+    
+}
